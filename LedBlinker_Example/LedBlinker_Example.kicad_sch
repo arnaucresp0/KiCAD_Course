@@ -10,6 +10,166 @@
 		(company "ARNAU ENGINEERING LTD.")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1226,6 +1386,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 104.14) (xy 154.94 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cd425bc-38e9-44bb-bfe1-538a1f9b9f91")
+	)
+	(wire
+		(pts
 			(xy 181.61 95.25) (xy 181.61 96.52)
 		)
 		(stroke
@@ -1366,6 +1536,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 104.14) (xy 154.94 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae1443a-1e25-4280-8bfc-e7143a654b85")
+	)
+	(wire
+		(pts
 			(xy 195.58 101.6) (xy 195.58 104.14)
 		)
 		(stroke
@@ -1396,6 +1576,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 106.68) (xy 154.94 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c36a6fbf-d789-4c4f-a8e1-ddf8801c806f")
+	)
+	(wire
+		(pts
 			(xy 195.58 87.63) (xy 195.58 91.44)
 		)
 		(stroke
@@ -1413,6 +1603,16 @@
 			(type default)
 		)
 		(uuid "cfb1ad46-0426-4259-ac77-b0f5953db2f7")
+	)
+	(wire
+		(pts
+			(xy 147.32 106.68) (xy 154.94 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f99ffa-6c4e-414d-8f77-0225cc38a417")
 	)
 	(wire
 		(pts
@@ -1466,6 +1666,38 @@
 		)
 		(uuid "034d5398-79a6-474e-b581-5456725c23aa")
 	)
+	(text "PNP TRANSISTOR"
+		(exclude_from_sim no)
+		(at 206.756 92.202 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "037a2e5c-f84e-49a6-a4ab-b65a7bc01cad")
+	)
+	(text "NPN TRANSISTOR"
+		(exclude_from_sim no)
+		(at 120.904 113.284 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16c91aed-3c14-442b-a6b6-3e4bcc8c514f")
+	)
+	(text "INPUT:"
+		(exclude_from_sim no)
+		(at 147.828 92.71 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "2a2db94e-f64e-46e8-b65c-d210dee9c2ab")
+	)
 	(text "LED WITH BUTTON SWITH EXAMPLE:"
 		(exclude_from_sim no)
 		(at 195.58 69.088 0)
@@ -1477,6 +1709,72 @@
 			)
 		)
 		(uuid "9718b13d-05bd-486e-b497-a0347ed8b149")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 154.94 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "116242e6-4906-4c08-89ed-670b993b3167")
+		(property "Reference" "#PWR05"
+			(at 154.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 154.94 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8236a7d-3d1b-413d-ba97-1b833c81f3be")
+		)
+		(instances
+			(project "LedBlinker_Example"
+				(path "/a5c0b99e-8d29-42e2-8e74-64175bfaea32"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -1543,6 +1841,74 @@
 			(project "LedBlinker_Example"
 				(path "/a5c0b99e-8d29-42e2-8e74-64175bfaea32"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 142.24 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c88da5e-0915-4035-afd2-1b64718575b6")
+		(property "Reference" "J1"
+			(at 142.875 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 142.875 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce420075-e703-4eb4-a5c4-ec7b1142e1c4")
+		)
+		(pin "2"
+			(uuid "9b9ce04b-9b65-49d9-8cbb-40f4065c6585")
+		)
+		(instances
+			(project "LedBlinker_Example"
+				(path "/a5c0b99e-8d29-42e2-8e74-64175bfaea32"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1885,6 +2251,72 @@
 			(project "LedBlinker_Example"
 				(path "/a5c0b99e-8d29-42e2-8e74-64175bfaea32"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "901dffaf-1bf0-4873-bc78-d8142e62e56c")
+		(property "Reference" "#PWR06"
+			(at 154.94 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "779aa534-d5a8-44ed-b503-8dd93147e405")
+		)
+		(instances
+			(project "LedBlinker_Example"
+				(path "/a5c0b99e-8d29-42e2-8e74-64175bfaea32"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
